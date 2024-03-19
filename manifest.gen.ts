@@ -97,17 +97,21 @@ const manifest = {
     "deco-sites/will-deco-task/sections/Images/ShoppableBanner.tsx": $$$$$$28,
     "deco-sites/will-deco-task/sections/Links/LinkTree.tsx": $$$$$$29,
     "deco-sites/will-deco-task/sections/Links/Shortcuts.tsx": $$$$$$30,
-    "deco-sites/will-deco-task/sections/Miscellaneous/CampaignTimer.tsx": $$$$$$31,
-    "deco-sites/will-deco-task/sections/Miscellaneous/CookieConsent.tsx": $$$$$$32,
+    "deco-sites/will-deco-task/sections/Miscellaneous/CampaignTimer.tsx":
+      $$$$$$31,
+    "deco-sites/will-deco-task/sections/Miscellaneous/CookieConsent.tsx":
+      $$$$$$32,
     "deco-sites/will-deco-task/sections/Miscellaneous/Slide.tsx": $$$$$$33,
     "deco-sites/will-deco-task/sections/Newsletter/Newsletter.tsx": $$$$$$34,
     "deco-sites/will-deco-task/sections/Product/ImageGalleryFrontBack.tsx":
       $$$$$$35,
     "deco-sites/will-deco-task/sections/Product/NotFound.tsx": $$$$$$36,
-    "deco-sites/will-deco-task/sections/Product/NotFoundChallenge.tsx": $$$$$$37,
+    "deco-sites/will-deco-task/sections/Product/NotFoundChallenge.tsx":
+      $$$$$$37,
     "deco-sites/will-deco-task/sections/Product/ProductDetails.tsx": $$$$$$38,
     "deco-sites/will-deco-task/sections/Product/ProductShelf.tsx": $$$$$$39,
-    "deco-sites/will-deco-task/sections/Product/ProductShelfTabbed.tsx": $$$$$$40,
+    "deco-sites/will-deco-task/sections/Product/ProductShelfTabbed.tsx":
+      $$$$$$40,
     "deco-sites/will-deco-task/sections/Product/SearchResult.tsx": $$$$$$41,
     "deco-sites/will-deco-task/sections/Product/ShelfWithImage.tsx": $$$$$$42,
     "deco-sites/will-deco-task/sections/Product/Wishlist.tsx": $$$$$$43,
