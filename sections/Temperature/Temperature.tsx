@@ -21,7 +21,8 @@ export default function Temperature({ temperature, city }: Props) {
       <Button class="bg-black hover:bg-black outline-0 rounded-full w-28 h-28 fixed sm:sticky right-0 top-32 z-30">
         {numberCelsius && (
           <span class="text-white text-xs sm:text-sm font-bold flex flex-col gap-1">
-            Temperatura <span class="text-lg underline">{numberCelsius + "°"}</span>
+            Temperatura{" "}
+            <span class="text-lg underline">{numberCelsius + "°"}</span>
           </span>
         )}
       </Button>

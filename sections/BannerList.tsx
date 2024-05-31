@@ -17,7 +17,9 @@ export default function BannerList(props: Props) {
       {props.description && <p class="text-gray-600">{props.description}</p>}
       <ul class="mt-4">
         {props.items.map((item, index) => (
-          <li key={index} class={`${item.color ?? "text-gray-800"}`}>{item.text}</li>
+          <li key={index} class={`${item.color ?? "text-gray-800"}`}>
+            {item.text}
+          </li>
         ))}
       </ul>
     </div>

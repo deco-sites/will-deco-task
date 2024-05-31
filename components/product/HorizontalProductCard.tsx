@@ -59,7 +59,7 @@ interface Props {
 const WIDTH = 200;
 const HEIGHT = 279;
 
-function ProductCard({
+function HorizontalProductCard({
   product,
   preload,
   itemListName,
@@ -365,4 +365,4 @@ function ProductCard({
   );
 }
 
-export default ProductCard;
+export default HorizontalProductCard;
