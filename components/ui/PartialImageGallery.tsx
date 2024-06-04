@@ -9,12 +9,9 @@ interface Image {
 }
 
 export interface Props {
-  /** @description Título da sessão */
   title?: string;
-  /** @description Ao menos 3 imagens */
   images: Image[];
   page: number;
-  /** @title mostrar mais */
   showMore: {
     text?: string;
   };
