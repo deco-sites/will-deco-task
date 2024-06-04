@@ -7,6 +7,7 @@ export interface Props extends Omit<BtnProps, "onAddItem"> {
 }
 
 function AddToCartButton({ seller, productID, eventParams }: Props) {
+  console.log('asdasd',productID)
   const { addItems } = useCart();
   const onAddItem = () =>
     addItems({

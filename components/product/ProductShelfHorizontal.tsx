@@ -1,7 +1,5 @@
 import { SendEventOnView } from "../Analytics.tsx";
-import HorizontalProductCard, {
-  Layout as cardLayout,
-} from "./HorizontalProductCard.tsx";
+import HorizontalProductCard from "./HorizontalProductCard.tsx";
 import Icon from "../ui/Icon.tsx";
 import Header from "../ui/SectionHeader.tsx";
 import Slider from "../ui/Slider.tsx";
@@ -26,7 +24,6 @@ export interface Props {
     headerfontSize?: "Normal" | "Large" | "Small";
     showArrows?: boolean;
   };
-  cardLayout?: cardLayout;
 }
 
 function ProductShelfHorizontal({
@@ -34,7 +31,6 @@ function ProductShelfHorizontal({
   title,
   description,
   layout,
-  cardLayout,
 }: Props) {
   const id = useId();
   const platform = usePlatform();
@@ -79,7 +75,7 @@ function ProductShelfHorizontal({
             <Slider.Item
               index={index}
               class={clx(
-                "carousel-item",
+                "carousel-item px-2",
                 slideDesktop[layout?.numberOfSliders?.desktop ?? 3],
                 slideMobile[layout?.numberOfSliders?.mobile ?? 1],
               )}
@@ -87,7 +83,6 @@ function ProductShelfHorizontal({
               <HorizontalProductCard
                 product={product}
                 itemListName={title}
-                layout={cardLayout}
                 platform={platform}
                 index={index}
               />
