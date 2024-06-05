@@ -8,8 +8,8 @@ import type { SectionProps } from "deco/types.ts";
 import Alert from "./Alert.tsx";
 import Navbar from "./Navbar.tsx";
 import { headerHeight } from "./constants.ts";
-import { likeCount } from "../../sdk/useVotes.tsx";
-import Icon from "../../components/ui/Icon.tsx";
+// import { likeCount } from "../../sdk/useVotes.tsx";
+// import Icon from "../../components/ui/Icon.tsx";
 
 export interface Logo {
   src: ImageWidget;
@@ -93,10 +93,10 @@ function Header({
         >
           <div class="bg-base-100 fixed w-full z-50">
             {alerts && alerts.length > 0 && <Alert alerts={alerts} />}
-            <div class="flex gap-1 text-slate-400">
+            {/* <div class="flex justify-center items-center gap-1 text-slate-400 w-full">
               <Icon id="friends" size={24} />
               <span>{likeCount.value}</span>
-            </div>
+            </div> */}
             <Navbar
               device={device}
               items={items}
