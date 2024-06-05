@@ -32,16 +32,16 @@ export default function PartialImageGallery({
   return (
     <section class="container flex flex-col gap-4 justify-center items-center my-9">
       {title && (
-        <h2 class="text-2lg font-semibold text-black mb-4 block">
+        <h2 class="text-3xl font-semibold text-black mb-4 block">
           {title}
         </h2>
       )}
 
       <ul class="flex flex-wrap justify-center gap-2 mb-2">
         {shownImages.map((val: Image) => (
-          <li class="w-full md:max-w-[330px] min-h-[200px]">
+          <li class="w-full h-full max-w-[320px] min-h-[200px]">
             <Image
-              class="w-full h-auto  rounded-md cursor-pointer"
+              class="w-full h-auto cursor-pointer hover:scale-110"
               width={300}
               height={300}
               src={val.src}

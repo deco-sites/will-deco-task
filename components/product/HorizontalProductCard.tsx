@@ -5,6 +5,7 @@ import { useOffer } from "../../sdk/useOffer.ts";
 import type { Product } from "apps/commerce/types.ts";
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
 import AddToCartButtonVTEX from "../../islands/AddToCartButton/vtex.tsx";
+import IslandCountLikes from "deco-sites/will-deco-task/islands/IslandCountLikes.tsx";
 import Image from "apps/website/components/Image.tsx";
 import { relative } from "../../sdk/url.ts";
 
@@ -20,6 +21,20 @@ interface Props {
   index?: number;
 
   platform?: Platform;
+
+  /** @description Animação da imagem */
+  animateImage?: boolean;
+
+  /** @description LARGURA MAXIMA */
+  maxWidth:
+    | "max-w-xl"
+    | "max-w-2xl"
+    | "max-w-3xl"
+    | "max-w-4xl"
+    | "max-w-5xl"
+    | "max-w-6xl"
+    | "max-w-7xl"
+    | "max-w-full";
 }
 
 const WIDTH = 200;
@@ -30,6 +45,8 @@ function HorizontalProductCard({
   preload,
   itemListName,
   index,
+  maxWidth,
+  animateImage = true,
 }: Props) {
   const { url, productID, name, image: images, offers, isVariantOf } = product;
   const id = `product-card-${productID}`;
@@ -40,7 +57,9 @@ function HorizontalProductCard({
   return (
     <div
       id={id}
-      class="flex flex-col lg:flex-row items-center justify-center w-full gap-3 my-9"
+      class={`flex flex-col lg:flex-row items-center justify-center gap-3 my-9  w-full xl:${
+        maxWidth ?? "max-w-xl"
+      }`}
       data-deco="view-product"
     >
       <SendEventOnClick
@@ -71,14 +90,16 @@ function HorizontalProductCard({
             alt={front.alternateName}
             width={WIDTH}
             height={HEIGHT}
-            class="`bg-base-100 rounded w-full hover:scale-110"
+            class={`bg-base-100 rounded w-full ${
+              animateImage ? "hover:scale-110" : ""
+            }}`}
             preload={preload}
             loading={preload ? "eager" : "lazy"}
             decoding="async"
           />
         </a>
       </figure>
-      <div class="flex flex-col p-2 gap-2 lg:gap-2 md:max-w-56 lg:max-w-72">
+      <div class="flex flex-col p-2 gap-2 lg:gap-2 md:max-w-56 lg:max-w-72 rounded border border-stone-400 bg-stone-400">
         <div class="flex flex-col gap-0">
           <h2
             class="truncate text-base lg:text-lg text-base-content capitalize font-semibold"
@@ -91,10 +112,10 @@ function HorizontalProductCard({
         </div>
 
         <div class="flex flex-col gap-2">
-          <div class="line-through text-xs font-normal lg:text-sm">
+          <div class="line-through text-xs font-normal ">
             {formatPrice(listPrice, offers?.priceCurrency)}
           </div>
-          <div class="text-base lg:text-sm font-semibold">
+          <div class="text-base font-semibold">
             {formatPrice(price, offers?.priceCurrency)}
           </div>
           <ul class="flex items-center gap-2 w-full">
@@ -105,6 +126,7 @@ function HorizontalProductCard({
             </li>
           </ul>
           <div>
+            <IslandCountLikes />
             <AddToCartButtonVTEX
               eventParams={{
                 items: [{

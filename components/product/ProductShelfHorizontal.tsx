@@ -54,7 +54,7 @@ function ProductShelfHorizontal({
     5: "w-1/5",
   };
   return (
-    <div class="w-full container py-8 flex flex-col gap-6 lg:py-10">
+    <div class="container px-3 sm:px-4 xl:px-6 py-8 flex flex-col gap-6 lg:py-10">
       <Header
         title={title || ""}
         description={description || ""}

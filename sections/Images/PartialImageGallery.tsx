@@ -15,7 +15,7 @@ export function LoadingFallback() {
 
 export function ErrorFallback({ error }: { error?: Error }) {
   return (
-    <div class="container bg-gray/65 flex flex-col justify-center items-center my-9 p-2 ">
+    <div class="container bg-300/65 flex flex-col justify-center items-center my-9 p-2 ">
       <div class="mb-3">
         <h3 class="text-2xl text-center">São Paulo - SP</h3>
         <p class="text-base text-center">Mercado Municipal de São Paulo</p>
@@ -24,7 +24,7 @@ export function ErrorFallback({ error }: { error?: Error }) {
         src="https://s2-g1.glbimg.com/ofIlOJdbs7oEdpBWCPoXuBYOdYY=/0x0:1700x1065/984x0/smart/filters:strip_icc()/s.glbimg.com/jo/g1/f/original/2017/02/15/rafael-martins_govba_ok.jpg"
         width={513}
         height={337}
-        class="mx-auto mb-2"
+        class="mx-auto hover:scale-110 mb-2"
       />
       <div class={"flex flex-col justify-center m-auto"}>
         <h3
