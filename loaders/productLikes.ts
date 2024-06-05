@@ -1,30 +1,30 @@
-// export interface ProductVotesApiResponse {
-//   product?: number;
-// }
+export interface ProductVotesApiResponse {
+  product: number;
+}
 
-// export interface productLikesProps {
-//   productId?: string;
-// }
+export interface productLikesProps {
+  productId: string;
+}
 
-// export default async function productLikes(
-//   props: productLikesProps,
-//   _req: Request,
-//   _ctx: unknown,
-// ): Promise<ProductVotesApiResponse | undefined> {
-//   try {
-//     const productVotesResponse = await fetch(
-//       `https://camp-api.deco.cx/event/${props.productId}`,
-//       {
-//         headers: {
-//           "x-api-key": "will-deco-task",
-//         },
-//       },
-//     );
+export default async function productLikes(
+  props: productLikesProps,
+  _req: Request,
+  _ctx: unknown,
+): Promise<ProductVotesApiResponse | undefined> {
+  try {
+    const productVotesResponse = await fetch(
+      `https://camp-api.deco.cx/event/${props.productId}`,
+      {
+        headers: {
+          "x-api-key": "will-deco-task",
+        },
+      },
+    );
 
-//     const productVotes = await productVotesResponse.json();
+    const productVotes = await productVotesResponse.json();
 
-//     return productVotes.product;
-//   } catch (e) {
-//     console.error({ Error: e });
-//   }
-// }
+    return productVotes.product;
+  } catch (e) {
+    console.error({ Error: e });
+  }
+}
