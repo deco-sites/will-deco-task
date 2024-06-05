@@ -55,19 +55,18 @@ import * as $$$$$$38 from "./sections/Product/ImageGalleryFrontBack.tsx";
 import * as $$$$$$39 from "./sections/Product/NotFound.tsx";
 import * as $$$$$$40 from "./sections/Product/NotFoundChallenge.tsx";
 import * as $$$$$$41 from "./sections/Product/ProductDetails.tsx";
-import * as $$$$$$42 from "./sections/Product/ProductLike.tsx";
-import * as $$$$$$43 from "./sections/Product/ProductShelf.tsx";
-import * as $$$$$$44 from "./sections/Product/ProductShelfHorizontal.tsx";
-import * as $$$$$$45 from "./sections/Product/ProductShelfTabbed.tsx";
-import * as $$$$$$46 from "./sections/Product/ProductVote.tsx";
-import * as $$$$$$47 from "./sections/Product/SearchResult.tsx";
-import * as $$$$$$48 from "./sections/Product/ShelfWithImage.tsx";
-import * as $$$$$$49 from "./sections/Product/Wishlist.tsx";
-import * as $$$$$$50 from "./sections/Social/InstagramPosts.tsx";
-import * as $$$$$$51 from "./sections/Social/WhatsApp.tsx";
-import * as $$$$$$52 from "./sections/Temperature/Temperature.tsx";
-import * as $$$$$$53 from "./sections/TextoTeste.tsx";
-import * as $$$$$$54 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$42 from "./sections/Product/ProductShelf.tsx";
+import * as $$$$$$43 from "./sections/Product/ProductShelfHorizontal.tsx";
+import * as $$$$$$44 from "./sections/Product/ProductShelfTabbed.tsx";
+import * as $$$$$$45 from "./sections/Product/ProductVote.tsx";
+import * as $$$$$$46 from "./sections/Product/SearchResult.tsx";
+import * as $$$$$$47 from "./sections/Product/ShelfWithImage.tsx";
+import * as $$$$$$48 from "./sections/Product/Wishlist.tsx";
+import * as $$$$$$49 from "./sections/Social/InstagramPosts.tsx";
+import * as $$$$$$50 from "./sections/Social/WhatsApp.tsx";
+import * as $$$$$$51 from "./sections/Temperature/Temperature.tsx";
+import * as $$$$$$52 from "./sections/TextoTeste.tsx";
+import * as $$$$$$53 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "loaders": {
@@ -130,21 +129,20 @@ const manifest = {
     "deco-sites/will-deco-task/sections/Product/NotFoundChallenge.tsx":
       $$$$$$40,
     "deco-sites/will-deco-task/sections/Product/ProductDetails.tsx": $$$$$$41,
-    "deco-sites/will-deco-task/sections/Product/ProductLike.tsx": $$$$$$42,
-    "deco-sites/will-deco-task/sections/Product/ProductShelf.tsx": $$$$$$43,
+    "deco-sites/will-deco-task/sections/Product/ProductShelf.tsx": $$$$$$42,
     "deco-sites/will-deco-task/sections/Product/ProductShelfHorizontal.tsx":
-      $$$$$$44,
+      $$$$$$43,
     "deco-sites/will-deco-task/sections/Product/ProductShelfTabbed.tsx":
-      $$$$$$45,
-    "deco-sites/will-deco-task/sections/Product/ProductVote.tsx": $$$$$$46,
-    "deco-sites/will-deco-task/sections/Product/SearchResult.tsx": $$$$$$47,
-    "deco-sites/will-deco-task/sections/Product/ShelfWithImage.tsx": $$$$$$48,
-    "deco-sites/will-deco-task/sections/Product/Wishlist.tsx": $$$$$$49,
-    "deco-sites/will-deco-task/sections/Social/InstagramPosts.tsx": $$$$$$50,
-    "deco-sites/will-deco-task/sections/Social/WhatsApp.tsx": $$$$$$51,
-    "deco-sites/will-deco-task/sections/Temperature/Temperature.tsx": $$$$$$52,
-    "deco-sites/will-deco-task/sections/TextoTeste.tsx": $$$$$$53,
-    "deco-sites/will-deco-task/sections/Theme/Theme.tsx": $$$$$$54,
+      $$$$$$44,
+    "deco-sites/will-deco-task/sections/Product/ProductVote.tsx": $$$$$$45,
+    "deco-sites/will-deco-task/sections/Product/SearchResult.tsx": $$$$$$46,
+    "deco-sites/will-deco-task/sections/Product/ShelfWithImage.tsx": $$$$$$47,
+    "deco-sites/will-deco-task/sections/Product/Wishlist.tsx": $$$$$$48,
+    "deco-sites/will-deco-task/sections/Social/InstagramPosts.tsx": $$$$$$49,
+    "deco-sites/will-deco-task/sections/Social/WhatsApp.tsx": $$$$$$50,
+    "deco-sites/will-deco-task/sections/Temperature/Temperature.tsx": $$$$$$51,
+    "deco-sites/will-deco-task/sections/TextoTeste.tsx": $$$$$$52,
+    "deco-sites/will-deco-task/sections/Theme/Theme.tsx": $$$$$$53,
   },
   "matchers": {
     "deco-sites/will-deco-task/matchers/utm.ts": $$$$$$$0,

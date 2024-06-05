@@ -54,7 +54,7 @@ function ProductShelfHorizontal({
     5: "w-1/5",
   };
   return (
-    <div class="container px-3 sm:px-4 xl:px-6 py-8 flex flex-col gap-6 lg:py-10">
+    <div class="container py-8 flex flex-col gap-6 lg:py-10">
       <Header
         title={title || ""}
         description={description || ""}
@@ -92,7 +92,7 @@ function ProductShelfHorizontal({
 
         {layout?.showArrows && (
           <>
-            <div class="relative block z-10 col-start-1 row-start-3">
+            <div class="relative sm:block z-10 col-start-1 row-start-3 sm">
               <Slider.PrevButton class="absolute w-12 h-12 flex justify-center items-center">
                 <Icon size={24} id="ChevronLeft" strokeWidth={3} class="w-5" />
               </Slider.PrevButton>

@@ -1,1 +1,1 @@
-// export { default } from "deco-sites/will-deco-task/components/product/ProductVote.tsx";
+export { default } from "deco-sites/will-deco-task/components/product/ProductVote.tsx";
