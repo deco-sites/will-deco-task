@@ -84,7 +84,7 @@ export default function ProductVote({ productId }: Props) {
             <span class="max-w-[24px]">
               <Icon
                 id="mood-smile"
-                class="max-w-[24px] text-gray-500"
+                class=" text-gray-500"
                 width={24}
                 height={24}
               />
