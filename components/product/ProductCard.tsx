@@ -1,6 +1,6 @@
 import type { Platform } from "../../apps/site.ts";
-import { SendEventOnClick } from "../../components/Analytics.tsx";
-import Avatar from "../../components/ui/Avatar.tsx";
+import { SendEventOnClick } from "../Analytics.tsx";
+import Avatar from "../ui/Avatar.tsx";
 import WishlistButtonVtex from "../../islands/WishlistButton/vtex.tsx";
 import WishlistButtonWake from "../../islands/WishlistButton/vtex.tsx";
 import { formatPrice } from "../../sdk/format.ts";
