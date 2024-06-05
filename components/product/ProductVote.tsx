@@ -65,7 +65,6 @@ export default function ProductVote({ productId }: Props) {
   return (
     <div class="flex gap-2">
       <ToastContainerComponent />
-      
       <button onClick={addVote}>
         {hasVoted.value
           ? <Icon id="mood-check" class="text-emerald-600" width={24} height={24} />

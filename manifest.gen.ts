@@ -5,14 +5,13 @@
 import * as $$$$$$$$$0 from "./actions/sendVote.ts";
 import * as $$$$$$$$$$$0 from "./apps/decohub.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
-import * as $$$3 from "./loaders/availableIcons.ts";
-import * as $$$4 from "./loaders/icons.ts";
-import * as $$$0 from "./loaders/Layouts/HorizontalProductCard.tsx";
-import * as $$$1 from "./loaders/Layouts/ProductCard.tsx";
-import * as $$$2 from "./loaders/List/Sections.tsx";
-import * as $$$5 from "./loaders/productLikes.ts";
-import * as $$$6 from "./loaders/votesProduct.ts";
-import * as $$$7 from "./loaders/votesTotal.ts";
+import * as $$$2 from "./loaders/availableIcons.ts";
+import * as $$$3 from "./loaders/icons.ts";
+import * as $$$0 from "./loaders/Layouts/ProductCard.tsx";
+import * as $$$1 from "./loaders/List/Sections.tsx";
+import * as $$$4 from "./loaders/productLikes.ts";
+import * as $$$5 from "./loaders/votesProduct.ts";
+import * as $$$6 from "./loaders/votesTotal.ts";
 import * as $$$$$$$0 from "./matchers/utm.ts";
 import * as $$$$$$0 from "./sections/Animation/Animation.tsx";
 import * as $$$$$$1 from "./sections/BannerList.tsx";
@@ -72,14 +71,13 @@ import * as $$$$$$54 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "loaders": {
-    "deco-sites/will-deco-task/loaders/availableIcons.ts": $$$3,
-    "deco-sites/will-deco-task/loaders/icons.ts": $$$4,
-    "deco-sites/will-deco-task/loaders/Layouts/HorizontalProductCard.tsx": $$$0,
-    "deco-sites/will-deco-task/loaders/Layouts/ProductCard.tsx": $$$1,
-    "deco-sites/will-deco-task/loaders/List/Sections.tsx": $$$2,
-    "deco-sites/will-deco-task/loaders/productLikes.ts": $$$5,
-    "deco-sites/will-deco-task/loaders/votesProduct.ts": $$$6,
-    "deco-sites/will-deco-task/loaders/votesTotal.ts": $$$7,
+    "deco-sites/will-deco-task/loaders/availableIcons.ts": $$$2,
+    "deco-sites/will-deco-task/loaders/icons.ts": $$$3,
+    "deco-sites/will-deco-task/loaders/Layouts/ProductCard.tsx": $$$0,
+    "deco-sites/will-deco-task/loaders/List/Sections.tsx": $$$1,
+    "deco-sites/will-deco-task/loaders/productLikes.ts": $$$4,
+    "deco-sites/will-deco-task/loaders/votesProduct.ts": $$$5,
+    "deco-sites/will-deco-task/loaders/votesTotal.ts": $$$6,
   },
   "sections": {
     "deco-sites/will-deco-task/sections/Animation/Animation.tsx": $$$$$$0,

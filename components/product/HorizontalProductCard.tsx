@@ -8,7 +8,7 @@ import AddToCartButtonVTEX from "../../islands/AddToCartButton/vtex.tsx";
 // import IslandCountLikes from "deco-sites/will-deco-task/islands/IslandCountLikes.tsx";
 import Image from "apps/website/components/Image.tsx";
 import { relative } from "../../sdk/url.ts";
-import ProductVote from "deco-sites/will-deco-task/islands/ProductVote.tsx";
+// import ProductVote from "deco-sites/will-deco-task/islands/ProductVote.tsx";
 
 
 interface Props {
@@ -129,7 +129,7 @@ function HorizontalProductCard({
           </ul>
           <div>
             {/* <IslandCountLikes /> */}
-            <ProductVote productId={product.productID} />
+            {/* <ProductVote productId={product.productID} /> */}
             <AddToCartButtonVTEX
               eventParams={{
                 items: [{
