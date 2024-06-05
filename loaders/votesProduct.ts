@@ -1,4 +1,4 @@
-import { AppContext } from "../apps/site.ts";
+import { AppContext } from "$store/apps/site.ts";
 
 interface VotesProduct {
   productId: string;

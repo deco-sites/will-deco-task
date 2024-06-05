@@ -29,7 +29,8 @@ export default function SectionCountLike() {
       >
         <Icon
           id={alreadyLiked.value ? "mood-check" : "mood-smile"}
-          size={24}
+          width={24}
+          height={24}
         />
       </button>
       

@@ -63,15 +63,14 @@ export default function ProductVote({ productId }: Props) {
   };
 
   return (
-    <div class="flex gap-2">
+    <div class="flex gap-2 mb-1">
       <ToastContainerComponent />
       <button onClick={addVote}>
         {hasVoted.value
-          ? <Icon id="mood-check" class="text-emerald-600" width={24} height={24} />
-          : <Icon id="mood-smile" width={24} height={24} />}
+          ? <Icon id="mood-check" class="text-emerald-600" width={24} height={24} size={24} />
+          : <Icon id="mood-smile" class="max-w-[24px] text-gray-500" width={24} height={24} />}
       </button>
-      <p class="text-lg">{productVotes.value}</p>
-
+      <p class="text-lg text-white">{productVotes.value}</p>
     </div>
   );
 }

@@ -8,7 +8,7 @@ import AddToCartButtonVTEX from "../../islands/AddToCartButton/vtex.tsx";
 // import IslandCountLikes from "deco-sites/will-deco-task/islands/IslandCountLikes.tsx";
 import Image from "apps/website/components/Image.tsx";
 import { relative } from "../../sdk/url.ts";
-// import ProductVote from "deco-sites/will-deco-task/islands/ProductVote.tsx";
+import ProductVote from "deco-sites/will-deco-task/islands/ProductVote.tsx";
 
 
 interface Props {
@@ -108,7 +108,7 @@ function HorizontalProductCard({
             dangerouslySetInnerHTML={{ __html: name ?? "" }}
           />
           <div
-            class="truncate text-sm lg:text-sm text-slate-600"
+            class="truncate text-sm lg:text-sm text-slate-300"
             dangerouslySetInnerHTML={{ __html: description ?? "" }}
           />
         </div>
@@ -122,14 +122,14 @@ function HorizontalProductCard({
           </div>
           <ul class="flex items-center gap-2 w-full">
             <li>
-              <span class="text-slate-600 font-light text-sm truncate">
+              <span class="text-slate-300 font-light text-sm truncate">
                 ou {installments}
               </span>
             </li>
           </ul>
           <div>
             {/* <IslandCountLikes /> */}
-            {/* <ProductVote productId={product.productID} /> */}
+            <ProductVote productId={product.productID} />
             <AddToCartButtonVTEX
               eventParams={{
                 items: [{
